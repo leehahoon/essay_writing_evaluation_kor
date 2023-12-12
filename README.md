@@ -252,7 +252,7 @@ def load_data_from_dataframe(df, seed=1984):
 #### 학습 결과
 ![Essay prompt word to Essay word 학습 결과](https://github.com/leehahoon/essay_writing_evaluation_kor/assets/15906121/82d7a272-53ea-4fa7-ab40-7dbc98fae6ac)
 
-#### 학습 결과 요약
+#### 학습 결과 요약 (중복 제거)
 | 에세이 주제 단어 | 에세이 단어 | 모델 생성 단어 |
 | --- | --- | --- |
 | 매일 매우 호의 사람 기분 경험 만약 본인 명언 **부모님** | **가족** 사랑 **사람** 남편 인생 존재 가장 마지막 순간 메시지 | **친구** 생각 서로 **사람** **가족** 학교 |
