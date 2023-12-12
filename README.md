@@ -7,6 +7,7 @@ Shallow-learning with essay writing evaluation data (KOR)
 - IPython
 - Pandas, Numpy, Cupy
 - KoNLPy, WordCloud
+- 밑바닥부터 시작하는 딥러닝 2 코드 활용 ([GitHub](https://github.com/WegraLee/deep-learning-from-scratch-2))
 
 ## 데이터셋 소개
 
@@ -178,7 +179,8 @@ def load_data_from_dataframe(df, seed=1984):
 
 ## 에세이 평가 점수 예측
 
-평가하려는 에세이를 입력했을 때, 해당 에세이의 점수를 예측하는 모델
+- 평가하려는 에세이를 입력했을 때, 해당 에세이의 점수를 예측하는 모델
+- `Predict_Score_Deep.ipynb` 코드 참고
 
 ### 1) Essay to Score
 
@@ -207,6 +209,8 @@ def load_data_from_dataframe(df, seed=1984):
 
 ### 3) Ridge Regression with ML
 
+- `Predict_Score_Machine.ipynb` 코드 참고
+
 #### 개요
 
 딥러닝 모델과 성능 비교를 위해 머신러닝 모델 생성했다. Ridge Regression을 이용하였으며, 이용한 피처는 다음과 같다.
@@ -227,7 +231,8 @@ def load_data_from_dataframe(df, seed=1984):
 
 ## 에세이 자동 생성
 
-에세이의 주제를 입력하면 해당 주제에 맞게 에세이를 생성하는 모델
+- 에세이의 주제를 입력하면 해당 주제에 맞게 에세이를 생성하는 모델
+- `Generate_Essay.ipynb` 코드 참고
 
 ### 1) Essay prompt to Essay
 
