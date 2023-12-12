@@ -226,7 +226,7 @@ def load_data_from_dataframe(df, seed=1984):
 | essay_len | 에세이 길이 |
 
 #### 학습 결과
-- MSE = 9.87
+- MSE = 9.67
 ![머신러닝 모델 예측값 실제정답 비교 그래프](https://github.com/leehahoon/essay_writing_evaluation_kor/assets/15906121/9426ce22-a9e2-4c3d-9e90-b92813652839)
 
 ## 에세이 자동 생성
